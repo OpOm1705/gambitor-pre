@@ -75,7 +75,7 @@ const PreRegistrationPage = () => {
         <h1 style={Headingcss} className="mt-2 mb-[4rem] w-[25rem] h-[4rem] font-jost text-[2rem] font-extrabold leading-[7rem] tracking-[0.03em] text-center lg:width-[60rem] lg:h-[6rem] lg:text-[4.7rem] lg:my-28" >PRE-REGISTRATION</h1>
         <div style={formStyleDiv}>
           <label htmlFor="name" className="mb-1 h-[37.84px] font-jost text-1rem font-semibold  leading-[3.5rem] tracking-[-0.04em] text-left lg:h-[37.84px] lg:mb-3 lg:text-[32px]">NAME</label>
-          <input type="text" id='name' required className='mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-3xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-4 '  value={formData.name} onChange={handleInputChange} />
+          <input type="text" id='name' required className='mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-2xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-4 '  value={formData.name} onChange={handleInputChange} />
         </div>
         <div style={formStyleDiv}>
             <label htmlFor="category" className="mb-1 h-[37.84px] font-jost text-1rem font-semibold leading-[3.5rem] tracking-[-0.04em] text-left lg:h-[37.84px] lg:mb-3 lg:text-[32px]">
@@ -83,7 +83,7 @@ const PreRegistrationPage = () => {
             </label>
             <select 
             id="category" 
-            className="mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-3xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-4"
+            className="mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-2xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-4"
             value={formData.category}
             onChange={handleInputChange}
             required
@@ -96,15 +96,15 @@ const PreRegistrationPage = () => {
         </div>
         <div style={formStyleDiv}>
           <label htmlFor="schoolName" className="mb-1 h-[37.84px] font-jost text-1rem font-semibold leading-[3.5rem] tracking-[-0.04em] text-left lg:h-[37.84px] lg:mb-3 lg:text-[32px]">SCHOOL NAME</label>
-          <input type="text" id='schoolName' className='mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-3xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-4'  value={formData.schoolName} onChange={handleInputChange} />
+          <input type="text" id='schoolName' className='mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-2xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-4'  value={formData.schoolName} onChange={handleInputChange} />
         </div>
         <div style={formStyleDiv}>
           <label htmlFor="contactNumber" className="mb-1 h-[37.84px] font-jost text-1rem font-semibold leading-[3.5rem] tracking-[-0.04em] text-left lg:h-[37.84px] lg:mb-3 lg:text-[32px]">CONTACT NUMBER</label>
-          <input type="text" id='contactNumber' required className='mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-3xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-4'  value={formData.contactNumber} onChange={handleInputChange} />
+          <input type="text" id='contactNumber' required className='mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-2xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-4'  value={formData.contactNumber} onChange={handleInputChange} />
         </div>
         <div style={formStyleDiv}>
           <label htmlFor="emailAddress" className="mb-1 h-[37.84px] font-jost text-1rem font-semibold leading-[3.5rem] tracking-[-0.04em] text-left lg:h-[37.84px] lg:mb-3 lg:text-[32px]">EMAIL ADDRESS</label>
-          <input type='email' id='emailAddress' className='mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-3xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-2'  value={formData.emailAddress} onChange={handleInputChange} />
+          <input type='email' id='emailAddress' className='mb-0 w-[24rem] h-[2rem] border-2 border-[#3664AF] rounded-[0.5rem] lg:text-2xl font-normal lg:w-[62rem] lg:h-[3.8rem] lg:rounded-[1rem] lg:mb-2'  value={formData.emailAddress} onChange={handleInputChange} />
           
           <button className="cursor-pointer mt-1 bg-[#3664AF] w-24 h-10 border-0.5 border-[#3664AF] rounded-lg text-white font-jost font-[600] text-base leading-10 tracking-[-0.04em] text-center lg:w-[250px] lg:h-14 lg:border-0.5 lg:rounded-xl lg:text-2xl">VERIFY</button>
         </div>
